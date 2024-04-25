@@ -1,2 +1,8 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using StudentsSystem.Institute.Services;
+
+Menu menu = new Menu();
+
+string option = menu.ShowMenu();
+menu.SelectedOption(option);
+
+
